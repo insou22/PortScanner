@@ -28,15 +28,17 @@ public class PortScanner {
             for(int i = 0; i < args.length; i++) arguments.add(args[i]);
         }
 
-        out.println("----------------------------------------------------------------");
-        out.println("                            WARNING                             ");
-        out.println("            YOU HAVE CHOSEN TO LIVE DANGEROUSLY                 ");
-        out.println("          I TOO, LIKE TO LIVE DANGEROUSLY, HOWEVER              ");
-        out.println("         I (JamesJ) AM NOT RESPONSIBLE FOR ANY FINES            ");
-        out.println("        FIRES, OR ANYTHING, THAT THIS APPLICATION MAY           ");
-        out.println("       INCUR, AS --SUPERBEEFYMACHINE WILL MELT THROUGH          ");
-        out.println("         YOUR CPU. PRESS CTRL + C TO CANCEL NOW. XOX            ");
-        out.println("----------------------------------------------------------------");
+        if(arguments.contains("--superbeefymachine")){
+            out.println("----------------------------------------------------------------");
+            out.println("                            WARNING                             ");
+            out.println("            YOU HAVE CHOSEN TO LIVE DANGEROUSLY                 ");
+            out.println("          I TOO, LIKE TO LIVE DANGEROUSLY, HOWEVER              ");
+            out.println("         I (JamesJ) AM NOT RESPONSIBLE FOR ANY FINES            ");
+            out.println("        FIRES, OR ANYTHING, THAT THIS APPLICATION MAY           ");
+            out.println("       INCUR, AS --SUPERBEEFYMACHINE WILL MELT THROUGH          ");
+            out.println("         YOUR CPU. PRESS CTRL + C TO CANCEL NOW. XOX            ");
+            out.println("----------------------------------------------------------------");
+        }
 
         while (true) {
             if (level == 1) {
