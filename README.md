@@ -12,7 +12,7 @@ A Java program to scan the Internet to your hearts content.
 3. Make sure you have Java installed on said server. **This program requires Java 8. Use it. It wont harm you.**
 4. Run `java -jar PortScanner.jar`
  - This will initalize the program, and begin to ask you for desired port range to scan.
- - Looking to scan only one IP address? That's fine. Just use <DESIRED-IP-ADDRESS-/32.
+ - Looking to scan only one IP address? That's fine. Just use <DESIRED-IP-ADDRESS>/32.
  - This program works of CIDR's, and if you input an incorrect one, it'll let you know. For more info on CIDR's, check out here; http://www.ipaddressguide.com/cidr
  
  
